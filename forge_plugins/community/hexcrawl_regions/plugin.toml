@@ -1,0 +1,7 @@
+id = "hexcrawl_regions"
+version = "0.3.1"
+summary = "Generates a hexcrawl region map with biome clusters and points of interest."
+phase = "region"
+entrypoint = "plugin.py"
+abi = "1.2"
+capabilities = ["map.hex", "biome.cluster"]
