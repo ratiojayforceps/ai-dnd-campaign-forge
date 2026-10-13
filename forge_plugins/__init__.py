@@ -1,0 +1,1 @@
+"""Plugin system — contracts, loader, registry, bundled + community plugins."""
