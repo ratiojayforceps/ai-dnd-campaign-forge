@@ -1,0 +1,1 @@
+"""Core campaign engine — engine, session, dice, NPC synthesis."""
