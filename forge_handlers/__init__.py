@@ -1,0 +1,1 @@
+"""Handlers — glue between host events and core services."""
