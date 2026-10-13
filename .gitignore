@@ -1,0 +1,49 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Forge runtime
+.forge_cache/
+forge_sessions/
+*.forge.log
+campaigns/*.session
+
+# Model weights / vendor blobs
+models/*.gguf
+models/*.safetensors
+models/*.bin
+!models/.gitkeep
+
+# Plugin build artifacts
+plugins/**/build/
+plugins/**/*.pyd
+plugins/**/*.dll
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env
+.env.*
+config/secrets.toml
