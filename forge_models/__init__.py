@@ -1,0 +1,1 @@
+"""Dataclasses and pydantic schemas for campaign records."""
